@@ -1,0 +1,128 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#2F1818;
+}
+.header{
+  width:100%;
+  height: 72px;
+  background-image:url(links/wood.png);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom:10px;
+  padding-left:0px;
+  overflow: hidden;
+  width:100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:20px;
+  padding-left:35px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size:19pt;
+}
+/* Change the link color to #5C0B0C on hover */
+li a:hover {
+  background-color: #5C0B0C;
+  height:100%;
+}
+.active {
+  background-color:#5C0B0C;
+}
+
+.wrapper{
+  width:1050px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper1{
+  width:700px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title{
+  font-family: 'Didact Gothic', sans-serif;	
+  color:white;
+  font-size:32pt;
+  line-height: 32pt;
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color:#5C0B0C;
+}
+p{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:25pt;
+}
+.small{
+  float:left;
+  padding-right:50px;
+  padding-left:10px;
+  padding-top: 10px;
+}
+.head{
+  background-image:url(links/menuhead.png);
+  width:100%;
+}
+.info{
+  padding-top:25px;
+  padding-bottom:25px;
+  width:100%;
+  background-color:#5C0B0C;
+  padding-left:180px;
+}
+.uber{
+  float:left;
+}
+.grub{
+  float:left;
+}
+.yo{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:12pt;
+  margin:0px;
+  padding-bottom:10px;
+}
+.yo1{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:12pt;
+  margin:0px;
+  padding-bottom:40px;
+}
+.menu{
+  text-align: center;
+}
+.para{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:24pt;
+  text-align: center;
+  width:800px;
+  padding-top:70px;
+  padding-bottom: 70px;
+  padding-left:125px;
+}
+.title1{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:32pt;
+  padding-left: 380px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
