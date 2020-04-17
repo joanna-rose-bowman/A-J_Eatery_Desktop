@@ -1,0 +1,113 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#2F1818;
+}
+.header{
+  width:100%;
+  height: 72px;
+  background-image:url(links/wood.png);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom:10px;
+  padding-left:0px;
+  overflow: hidden;
+  width:100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:20px;
+  padding-left:35px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size:19pt;
+}
+/* Change the link color to #5C0B0C on hover */
+li a:hover {
+  background-color: #5C0B0C;
+  height:100%;
+}
+.active {
+  background-color:#5C0B0C;
+}
+
+.wrapper{
+  width:1050px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title{
+  font-family: 'Didact Gothic', sans-serif;	
+  color:white;
+  font-size:29pt;
+  line-height: 29pt;
+}
+p{
+  font-family: 'Didact Gothic', sans-serif; 
+  color:white;
+  font-size:16pt;
+  line-height:25pt;
+}
+
+.footer{
+  width:100%;
+  height:80px;
+  background-image:url(Links/footer.png);
+  float:left;
+  padding-left: 55px;
+}
+.icon1{
+  height:25px;
+  width:150px;
+  float:left;
+  margin-left:0px;
+  margin-top:0px;
+}
+.icons{
+  padding-top:10px;
+  padding-left:160px;
+}
+.small{
+  float:left;
+  padding-right:50px;
+  padding-left:10px;
+  padding-top: 10px;
+}
+.apps{
+	background-image:url(links/back.png);
+	padding-bottom:55px;
+}
+.we{
+  font-family: 'Didact Gothic', sans-serif;	
+  color:white;
+  font-size:45pt;
+  line-height: 45pt;
+  width:900px;
+  text-align:center;
+  margin-left:40px;
+  padding-top:100px;
+}
+.info{
+	margin-left:135px;
+	padding-top:80px;
+	padding-bottom:25px;
+}
+.uber{
+	float:left;
+}
+.grub{
+	float:left;
+}
+
